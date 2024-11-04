@@ -1,0 +1,16 @@
+[package]
+name = "bot-reservas-rust"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.77.2"
+authors = ["Kevin Muñoz <kmunoz@condorbs.net>", "Kevin Muñoz <kevin.munoz.m@uniminuto.edu>"]
+description = "Reserva tus espacion de uniminuto con este bot de telegram reescrito en rust"
+repository = "https://condorcs.net/mrhacker/bot-reservas-rust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+teloxide = "*"
+mysql = "*"
+dotenv = "*"
+chrono = "*"
